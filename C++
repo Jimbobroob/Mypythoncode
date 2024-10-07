@@ -1,0 +1,43 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+
+int computerChoice() {
+srand(time(0));
+int compChoice = 1 + rand() % 3;
+
+return compChoice;
+    
+}
+int main(){
+    
+char playerChoice();
+
+
+std::cout << "Chose either Rock Paper or Scissors: ";
+
+std::cin >> playerChoice;
+std::cout << "You chose "; playerChoice;
+
+  switch (compNumber){
+  
+  case 1:
+  if (playerChoice == R)
+  std::cout << "You draw";
+  break;
+  case 2: 
+  if (playerChoice == R)
+  std::cout << "You Lose";
+  break;
+  case 3:
+  if (playerChoice == R)
+  std::cout << "You win";
+  break;
+    
+}
+  
+
+    return 0;
+}
