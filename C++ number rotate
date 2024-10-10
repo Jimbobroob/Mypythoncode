@@ -1,0 +1,25 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+#include <algorithim>
+int main() {
+    float user_Input;
+    int nr_Num[5] ={2,3,4,5,7};
+    std::cout << "Enter a non negative integer: ";
+    std::cin >>user_Input;
+    
+    bool exists = std::find(nr_Num,nr_Num)
+    if (exists)
+    {
+        std::cout <<"Your number isnt rotatable";
+    }
+    else ()
+    {
+        std::cout <<"Your number is rotatable";
+    }
+
+    return 0;
+}
+
+
+https://en.cppreference.com/w/cpp/algorithm/find
+https://www.quora.com/What-is-the-SIMPLEST-way-to-check-if-an-element-is-in-an-array-in-C-C
