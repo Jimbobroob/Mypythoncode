@@ -1,0 +1,18 @@
+import math
+
+def main():
+
+    a = float(input("Enter num 1:"))
+    b = float(input("Enter num 2:"))
+
+    c = input("Enter either +,-,/,*:")
+
+    if c == "+":
+     print("Sum: {} + {} = {}".format(a,b,a+b))
+    elif c == "-":
+     print("Sum: {} - {} = {}".format(a,b,a-b))
+    elif c == "/":
+     print("Sum: {} / {} = {}".format(a,b,a/b))
+    elif c == "*":
+     print("Sum: {} * {} = {}".format(a,b,a*b))
+main()
